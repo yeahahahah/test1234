@@ -7,4 +7,12 @@ public class Cal
 
     }
 
+
+
+    public int multiple(int a, int b){
+
+        return a*b;
+
+    }
+
 }
