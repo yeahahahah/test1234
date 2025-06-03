@@ -20,4 +20,12 @@ class CalTest {
         assertEquals(expected,new Cal().Cal(4,1));
     }
 
+
+    @Test
+    void calMinus() {
+
+        int expected=4;
+        assertEquals(expected,new Cal().calMinus(7,3));
+
+    }
 }
