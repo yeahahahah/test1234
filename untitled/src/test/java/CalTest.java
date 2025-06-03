@@ -26,4 +26,12 @@ class CalTest {
         assertEquals(expected, new Cal().multiple(4,9));
     }
 
+
+    @Test
+    void calMinus() {
+
+        int expected=4;
+        assertEquals(expected,new Cal().calMinus(7,3));
+
+    }
 }
